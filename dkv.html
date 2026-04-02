@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RPL - SMK BPM</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f9fc;
+      color: #333;
+    }
+
+    .navbar {
+      background: #2a7fff;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+
+    .about {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .about h2 {
+      color: #2a7fff;
+      margin-bottom: 1rem;
+    }
+
+    .about p {
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+
+    .gallery {
+      background: #eef4ff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      color: #2a7fff;
+      margin-bottom: 2rem;
+    }
+
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .gallery-item {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.03);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .gallery-item p {
+      padding: 1rem;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #2a7fff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #1b5fd9;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <h1>Desain Komunikasi Visual (DKV)</h1>
+</header>
+
+<section class="about">
+  <h2>Tentang Jurusan DKV</h2>
+  <p>
+    Jurusan <b>Desain Komunikasi Visual (DKV)</b> adalah jurusan yang berfokus pada pengembangan kemampuan desain grafis, ilustrasi, tipografi, fotografi, serta pembuatan media visual yang komunikatif dan kreatif.
+  </p>
+  <p>
+    Lulusan DKV memiliki peluang karir yang luas seperti <i>graphic designer</i>, <i>illustrator</i>, <i>animator</i>, <i>art director</i>, <i>branding specialist</i>, hingga <i>content creator</i> di industri kreatif.
+  </p>
+</section>
+
+<!-- bagian dokumentasi -->
+<section class="gallery">
+  <h2>Dokumentasi Kegiatan DKV</h2>
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=600&q=80" alt="Siswa belajar desain grafis" />
+      <p>Siswa DKV sedang berlatih membuat desain poster menggunakan software grafis profesional.</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=600&q=80" alt="Proyek tim desain" />
+      <p>Kerja sama tim dalam merancang identitas visual dan logo untuk sebuah brand lokal.</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Presentasi karya desain" />
+      <p>Presentasi hasil karya desain siswa DKV di depan guru dan rekan-rekan untuk mendapat masukan kreatif.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a href="ui.html#home" class="btn">⬅ Kembali ke Beranda</a>
+</footer>
+</body>
+</html>
